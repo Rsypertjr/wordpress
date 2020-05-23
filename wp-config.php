@@ -38,6 +38,10 @@ define( 'DB_CHARSET', 'utf8mb4' );
 define( 'DB_COLLATE', '' );
 
 define('FS_METHOD', 'direct');
+                      
+//** Site URL */
+define('WP_HOME', 'http://159.65.100.7/wordpress');
+define('WP_SITEURL', 'http://159.65.100.7/wordpress');
 
 /**#@+
  * Authentication Unique Keys and Salts.
